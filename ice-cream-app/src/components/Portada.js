@@ -1,10 +1,10 @@
 import React from "react";
-import portadaimg from "./assets/portadaimg.png";
+import portadaimg from "./assets/portadaimg.jpg";
 
 const Portada = () => {
   return (
-    <div className="w-full bg-fixed h-96 bg-slate-700">
-      <img  src={portadaimg} alt="helados" className="object-contain w-full h-96" />
+    <div className="bg-fixed h-96 bg-slate-700">
+      <img  src={portadaimg} alt="helados" className="object-cover object-center w-full h-full" />
     </div>
   );
 };
