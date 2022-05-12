@@ -1,25 +1,23 @@
 import React from 'react'
-import helados from './Images/Helados.jpg'
+import helados from './Images/ice-cream-cone.png'
 
 const Delivery = () => {
   return (
     <div>
 
-    <div className='md:px-5 py-5 h-auto grid grid-row-2 max-w-full
-                        lg:grid lg:grid-cols-2 lg:gap-x-5'>
+    <div className='grid h-auto max-w-full py-5 md:px-5 grid-row-2 lg:grid lg:grid-cols-2 lg:gap-x-5'>
 
             
-            <div className='container-image'>
+            <div className=''>
 
-            <img className='w-full h-full'src={helados} alt="Hace tu pedido ONLINE" />
+            <img className='object-cover object-center w-11/12 h-5/6'src={helados} alt="Hace tu pedido ONLINE" />
 
             </div>        
 
 
-            <div className='container-text flex flex-col content-center mx-2 lg:mx-0 pt-6 gap-y-5 lg:gap-y-8'>        
+            <div className='flex flex-col content-center pt-6 mx-2 container-text lg:mx-0 gap-y-5 lg:gap-y-8'>        
 
-                <div className='container-title text-xl font-bold
-                                md:text-2xl xl:text-3xl'>
+                <div className='text-xl font-bold container-title md:text-2xl xl:text-3xl'>
 
                     <p className='text-green-700'>Hace tu Pedido Online!</p><p className='pb-3'>Delivery Gratis!</p>
 
@@ -40,7 +38,7 @@ const Delivery = () => {
 
                 <div>
 
-                  <button className='bg-blue-700 p-3  text-white border-2 border-none font-extrabold rounded-xl hover:bg-purple-600 md:text-xl'>Hacer Pedido Online</button>
+                  <button className='p-3 font-extrabold text-white bg-blue-700 border-2 border-none rounded-xl hover:bg-purple-600 md:text-xl'>Hacer Pedido Online</button>
 
                 </div>        
 
