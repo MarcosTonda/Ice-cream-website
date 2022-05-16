@@ -7,10 +7,11 @@ const Modal = ({ children, modalIsOpen, closeModal }) => {
     <div
       className={
         (modalIsOpen ? "flex-wrap" : "hidden") +
-        " bg-black opacity-90 fixed inset-0 z-50 flex items-center justify-center h-screen"
+        " bg-transparent opacity-100  fixed inset-0 z-50 flex items-center justify-end p-1"
       }
     >
-      <div className="border-8 border-blue-800 rounded-lg bg-zinc-200">
+      <div className="">
+      <div className="h-screen overflow-auto border-4 rounded-lg border-cyan-500 bg-zinc-200">
         <div className="flex justify-end ">
           <button
             className="px-2 m-2 font-sans text-white bg-gray-800 border-2 rounded border-cyan-500"
@@ -21,6 +22,8 @@ const Modal = ({ children, modalIsOpen, closeModal }) => {
         </div>
         {children}
       </div>
+    </div>
+  
     </div>
   );
 };

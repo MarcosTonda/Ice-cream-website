@@ -2,43 +2,27 @@
     "products": [
       {
         "id": 1,
-        "name": "Producto A",
-        "price": 10
+        "name": "Para Vegan@s",
+        "price": 10,
+        "imagen":"https://cdn.pixabay.com/photo/2018/08/16/22/59/ice-cream-3611698__340.jpg"
       },
       {
         "id": 2,
-        "name": "Producto B",
-        "price": 50
+        "name": "Para Mascotas",
+        "price": 50,
+        "imagen": "https://cdn.pixabay.com/photo/2015/08/15/10/11/dog-889376__340.jpg"
       },
       {
         "id": 3,
-        "name": "Producto C",
-        "price": 100
+        "name": "Para Celíac@s",
+        "price": 100,
+        "imagen": "https://cdn.pixabay.com/photo/2017/05/11/19/41/ice-2305178__340.jpg"
       },
       {
         "id": 4,
-        "name": "Producto D",
-        "price": 150
-      },
-      {
-        "id": 5,
-        "name": "Producto E",
-        "price": 200
-      },
-      {
-        "id": 6,
-        "name": "Producto f",
-        "price": 200
-      },
-      {
-        "id": 7,
-        "name": "Producto g",
-        "price": 200
-      },
-      {
-        "id": 8,
-        "name": "Producto h",
-        "price": 200
+        "name": "Ofertas Especiales",
+        "price": 150,
+        "imagen": "https://cdn.pixabay.com/photo/2014/02/22/21/38/ice-creams-272437__340.jpg"
       }
     ],
     "cart": [

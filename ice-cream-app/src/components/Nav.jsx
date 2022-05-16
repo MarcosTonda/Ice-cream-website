@@ -27,7 +27,7 @@ const Nav = () => {
         </div>
         <div className="mr-6">
         <ul
-          className={`md:flex md:items-center sx:mt-14 md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-50 left-0 w-260 md:w-auto md:pl-0 pl-2 pr-2 transition-all duration-500 ease-in ${
+          className={`md:flex md:items-start sx:mt-14 md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-50 left-0 w-260 md:w-auto md:pl-0 pl-2 pr-2 transition-all duration-500 ease-in ${
             open ? "top-20" : "top-[-490px]"
           }`}
         >
@@ -41,8 +41,13 @@ const Nav = () => {
               </a>
             </li>
           ))}
-         <div className="ml-16"><ShoppingCartIcon className="w-12 text-slate-500 hover:text-cyan-500"
+          
+         <div className="ml-16">
+          <a href="http://localhost:3001/ShoppingCart">
+          <ShoppingCartIcon className="w-12 text-slate-500 hover:text-cyan-500"
           /> 
+          </a>
+          
           </div>
         </ul>
         </div>
