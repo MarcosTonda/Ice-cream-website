@@ -34,7 +34,7 @@ const Product = ({ data, addToCart }) => {
             onClick={()=>addToCart(data) }
             className="p-2 text-xs font-medium text-white bg-blue-700 rounded shadow-md hover:bg-blue-600 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg" 
             >
-          Agregar
+          Comprar!
         </button>
         </div>
       </div>  

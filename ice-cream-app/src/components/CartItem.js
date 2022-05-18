@@ -31,7 +31,7 @@ const CartItem = ({ data, deleteFromCart, addToCart }) => {
           <div className="absolute bottom-0 right-0 mt-2">
             <button onClick={()=> deleteFromCart(data, true)}
             className="px-4 py-1 mb-1 mr-2 border-2 rounded-full hover:bg-slate-300 bg-slate-200 border-cyan-300 place-self-end">
-              Limpiar
+              Quitar
             </button>
             <br/>
           </div>

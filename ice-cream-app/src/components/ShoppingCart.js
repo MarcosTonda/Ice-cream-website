@@ -141,7 +141,7 @@ export const ShoppingCart = () => {
       <div className="">
         <Modal modalIsOpen={modalIsOpen} closeModal={closeModal}>
           <div className="mt-2 w-96">
-            <h2 className="mt-2 font-sans font-serif text-3xl font-semibold text-center text-black w-96">
+            <h2 className="mt-2 font-sans text-3xl font-semibold text-center text-black w-96">
               Este es{" "}
               <span className="font-serif text-3xl font-semibold text-cyan-600">
                 {" "}

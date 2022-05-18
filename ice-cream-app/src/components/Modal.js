@@ -7,7 +7,7 @@ const Modal = ({ children, modalIsOpen, closeModal }) => {
     <div
       className={
         (modalIsOpen ? "flex-wrap" : "hidden") +
-        " bg-transparent opacity-100  fixed inset-0 z-50 flex items-center justify-end p-1"
+        " bg-transparent opacity-100  fixed inset-0 z-50 flex items-center justify-center"
       }
     >
       <div className="">
