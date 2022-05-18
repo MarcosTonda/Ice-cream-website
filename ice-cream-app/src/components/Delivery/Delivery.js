@@ -1,5 +1,6 @@
 import React from 'react'
 import helados from './Images/ice-cream-cone.png'
+import * as stylesMM from '../stylesMM'
 
 const Delivery = () => {
   return (
@@ -38,7 +39,7 @@ const Delivery = () => {
 
                 <div>
 
-                  <button className='p-3 font-extrabold text-white bg-blue-700 border-2 border-none rounded-xl hover:bg-purple-600 md:text-xl'>Hacer Pedido Online</button>
+                  <button className={stylesMM.CARD_BUTTON}>Hacer Pedido Online</button>
 
                 </div>        
 

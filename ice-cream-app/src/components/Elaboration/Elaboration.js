@@ -1,6 +1,7 @@
 import React from 'react'
 import elaboration from './Images/elaboration.jpg'
 import tilde from './Images/tilde.png'
+import * as stylesMM from '../stylesMM'
 
 
 
@@ -11,7 +12,7 @@ const Elaboration = () => {
 
         <div className='flex flex-col mx-2 container-text gap-y-5 md:mx-0'>        
 
-          <div className='flex flex-wrap text-xl font-bold container-title md:text-2xl xl:text-3xl'>
+          <div className='flex flex-wrap font-sans text-xl font-semibold container-title md:text-2xl xl:text-3xl'>
 
             <p className='pr-2 text-green-700 pb-7'>Elaboracion de</p><p>Nuestros Productos</p>
             
@@ -51,9 +52,9 @@ const Elaboration = () => {
 
           </div>       
 
-          <div>
+          <div className='mb-4'>
 
-            <button className='p-3 mt-3 mb-3 font-extrabold text-white bg-blue-700 border-2 border-none rounded-xl hover:bg-purple-600'>Descubre Nuestros Productos</button>
+            <button className={stylesMM.CARD_BUTTON} >Descubre Nuestros Productos</button>
 
           </div>
 

@@ -1,6 +1,6 @@
 export const MAIN_CONTAINER = "flex flex-col flex-wrap md:flex-row content-center justify-center mx-auto"
 
-export const CARD_CONTAINER = "rounded-lg m-4 shadow-lg bg-white w-72"
+export const CARD_CONTAINER = "rounded-lg m-4 shadow-slate-500 bg-white w-72 border-cyan-500"
 
 export const IMAGE = "rounded-t-lg h-52 object-cover"
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import bluecow from './Images/bluecow.png'
+import * as stylesMM from '../stylesMM'
 
 const Socio = () => {
   return (
@@ -20,7 +21,7 @@ const Socio = () => {
 
         <div>
 
-        <button className='p-3 mb-3 font-extrabold text-white bg-blue-700 border-2 border-none rounded-xl hover:bg-purple-600'>Visitar Sitio Web</button>
+        <button className={stylesMM.CARD_BUTTON}>Visitar Sitio Web</button>
 
         </div>
 

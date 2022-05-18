@@ -6,9 +6,7 @@ import Socio from "./Socio/Socio";
 import Delivery from "./Delivery/Delivery";
 import Portada from "./Portada";
 import Nav from './Nav';
-//import Nav from './Nav';
-//import Header from './Header';
-//import Nav from './Nav';
+
 
 const Home = () => {
   return (
