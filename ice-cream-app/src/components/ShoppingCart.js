@@ -101,6 +101,7 @@ export const ShoppingCart = () => {
     (itemPrevius, itemNext) => itemPrevius + itemNext.quantity * itemNext.price,
     0
   );
+  const cantidadItemns = cart.reduce((itemPrevius, itemNext) => itemPrevius + itemNext.quantity,0);
 
   const [modalIsOpen, openModal, closeModal] = useModalHookState(false);
 
@@ -159,8 +160,9 @@ export const ShoppingCart = () => {
               ))}
             </div>
             <div className="relative flex mr-4 border-8 shadow-xl bg-cyan-200 w-96 h-28 ">
-              <div className="mt-10 ml-4 font-sans text-lg">
-                <h4>Total de tu compra = $ {totalCart},00</h4>
+              <div className="mt-4 ml-4 font-sans text-lg">
+                <h4>Cantidad de productos en tu carrito: {cantidadItemns}</h4>
+                <h4 className="mt-2 mb-2">Total de tu compra = $ {totalCart},00</h4>
               </div>
             </div>
           </div>
