@@ -112,7 +112,7 @@ export const ShoppingCart = () => {
     <>
       <div className="flex justify-between mt-4 mr-4 align-middle">
         <div className="mt-3">
-          <a href="http://localhost:3001/" className="ml-4">
+          <a href="http://localhost:3006/" className="ml-4">
             <button className="p-5 rounded-full bg-cyan-400 hover:bg-cyan-300">
               <ChevronDoubleLeftIcon className="w-6 text-gray-800" />
             </button>

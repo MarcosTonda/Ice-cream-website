@@ -41,7 +41,7 @@ const Nav = () => {
           ))}
           
          <div className="ml-16">
-          <a href="http://localhost:3001/ShoppingCart">
+          <a href="http://localhost:3006/ShoppingCart">
           <ShoppingCartIcon className="w-12 text-slate-500 hover:text-cyan-500"
           /> 
           </a>

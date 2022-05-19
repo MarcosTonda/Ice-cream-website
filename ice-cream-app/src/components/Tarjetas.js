@@ -49,7 +49,7 @@ const Tarjetas = () => {
               >
                 Mas Info
               </button>
-              <a href="http://localhost:3001/ShoppingCart">
+              <a href="http://localhost:3006/ShoppingCart">
                 <button type="button" className={stylesMM.CARD_BUTTON}>
                   ¡Compra ahora!
                 </button>
@@ -78,7 +78,7 @@ const Tarjetas = () => {
               >
                 Mas Info
               </button>
-              <a href="http://localhost:3001/ShoppingCart">
+              <a href="http://localhost:3006/ShoppingCart">
                 <button type="button" className={stylesMM.CARD_BUTTON}>
                   ¡Compra ahora!
                 </button>
@@ -106,7 +106,7 @@ const Tarjetas = () => {
               >
                 Mas Info
               </button>
-              <a href="http://localhost:3001/ShoppingCart">
+              <a href="http://localhost:3006/ShoppingCart">
                 <button type="button" className={stylesMM.CARD_BUTTON}>
                   ¡Compra ahora!
                 </button>
@@ -133,7 +133,7 @@ const Tarjetas = () => {
               >
                 Mas Info
               </button>
-              <a href="http://localhost:3001/ShoppingCart">
+              <a href="http://localhost:3006/ShoppingCart">
                 <button type="button" className={stylesMM.CARD_BUTTON}>
                   ¡Compra ahora!
                 </button>
