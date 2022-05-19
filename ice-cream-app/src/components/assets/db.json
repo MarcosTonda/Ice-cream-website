@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Para Vegan@s",
+      "price": 20,
+      "imagen": "https://cdn.pixabay.com/photo/2018/08/16/22/59/ice-cream-3611698__340.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Para Mascotas",
+      "price": 5,
+      "imagen": "https://media.istockphoto.com/photos/two-puppies-with-a-vanilla-ice-cream-cone-picture-id468936750?b=1&k=20&m=468936750&s=170667a&w=0&h=jInCptrJDy435C4rm61xVt0DGaOvK_CYRimzTtcngJk="
+    },
+    {
+      "id": 3,
+      "name": "Para Celíac@s",
+      "price": 30,
+      "imagen": "https://cdn.pixabay.com/photo/2017/05/11/19/41/ice-2305178__340.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Ofertas Especiales",
+      "price": 10,
+      "imagen": "https://media.istockphoto.com/photos/pretty-baby-girl-kid-eating-licking-big-ice-cream-in-waffles-cone-picture-id915888988?k=20&m=915888988&s=612x612&w=0&h=hi7WZujFoxkVxaQGM1QCNlIZobX-Ox0FVd1s0TXyY5A="
+    }
+  ],
+  "cart": []
+}
