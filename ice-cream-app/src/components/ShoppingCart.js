@@ -101,7 +101,10 @@ export const ShoppingCart = () => {
     (itemPrevius, itemNext) => itemPrevius + itemNext.quantity * itemNext.price,
     0
   );
-  const cantidadItemns = cart.reduce((itemPrevius, itemNext) => itemPrevius + itemNext.quantity,0);
+  const cantidadItemns = cart.reduce(
+    (itemPrevius, itemNext) => itemPrevius + itemNext.quantity,
+    0
+  );
 
   const [modalIsOpen, openModal, closeModal] = useModalHookState(false);
 
@@ -115,9 +118,9 @@ export const ShoppingCart = () => {
             </button>
           </a>
         </div>
-        <h1 className="mt-4 mb-4 text-5xl font-semibold align-middle">
+        <h1 className="mt-4 mb-4 text-5xl font-sans:'Roboto' font-semibold align-middle">
           Bienvenido, comienza{" "}
-          <span className="font-serif text-5xl font-semibold text-cyan-500">
+          <span className="font-sans:'Roboto' text-5xl font-semibold text-cyan-500">
             a llenar tu carrito!
           </span>
         </h1>
@@ -141,9 +144,9 @@ export const ShoppingCart = () => {
       <div className="">
         <Modal modalIsOpen={modalIsOpen} closeModal={closeModal}>
           <div className="mt-2 w-96">
-            <h2 className="mt-2 font-sans text-3xl font-semibold text-center text-black w-96">
+            <h2 className="mt-2 font-sans:'Roboto' text-3xl font-semibold text-center text-black w-96">
               Este es{" "}
-              <span className="font-serif text-3xl font-semibold text-cyan-600">
+              <span className="font-sans:'Roboto' text-3xl font-semibold text-cyan-600">
                 {" "}
                 tu carrito!
               </span>
@@ -160,9 +163,11 @@ export const ShoppingCart = () => {
               ))}
             </div>
             <div className="relative flex mr-4 border-8 shadow-xl bg-cyan-200 w-96 h-28 ">
-              <div className="mt-4 ml-4 font-sans text-lg">
+              <div className="mt-4 ml-4 font-sans:'Roboto' text-lg">
                 <h4>Cantidad de productos en tu carrito: {cantidadItemns}</h4>
-                <h4 className="mt-2 mb-2">Total de tu compra = $ {totalCart},00</h4>
+                <h4 className="mt-2 mb-2">
+                  Total de tu compra = $ {totalCart},00
+                </h4>
               </div>
             </div>
           </div>

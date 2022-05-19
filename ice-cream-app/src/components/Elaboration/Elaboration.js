@@ -12,9 +12,9 @@ const Elaboration = () => {
 
         <div className='flex flex-col mx-2 container-text gap-y-5 md:mx-0'>        
 
-          <div className='flex flex-wrap font-sans text-xl font-semibold container-title md:text-2xl xl:text-3xl'>
+          <div className="flex flex-wrap font-sans:'Roboto' text-xl font-semibold container-title md:text-2xl xl:text-3xl">
 
-            <p className='pr-2 text-green-700 pb-7'>Elaboracion de</p><p>Nuestros Productos</p>
+            <p className="pr-2 text-green-700 pb-7">Elaboracion de</p><p>Nuestros Productos</p>
             
           </div>          
 
@@ -22,31 +22,31 @@ const Elaboration = () => {
 
             <div className='flex flex-nowrap '>
 
-            <img className='pr-2 w-7 h-7 lg:w-10 lg:h-10' src={tilde} alt="tilde" /><p>Nuestra misión es hacerte feliz a ti y ayudar a nuestra comunidad.  De qué manera?</p>               
+            <img className='pr-2 w-7 h-7 lg:w-10 lg:h-10' src={tilde} alt="tilde" /><p className='text-justify'>Nuestra misión es hacerte feliz a ti y ayudar a nuestra comunidad.  De qué manera?</p>               
 
             </div>  
 
             <div className='flex flex-nowrap '>
 
-              <img className='pr-2 w-7 h-7 lg:w-10 lg:h-10' src={tilde} alt="tilde" /><p>Haciendo helados que disfrutarás comer como ninguna otra cosa en el mundo.</p>                       
+              <img className='pr-2 w-7 h-7 lg:w-10 lg:h-10' src={tilde} alt="tilde" /><p className='text-justify'>Haciendo helados que disfrutarás comer como ninguna otra cosa en el mundo.</p>                       
 
             </div>        
 
             <div className='flex flex-nowrap '>
               
-              <img className='pr-2 w-7 h-7 lg:w-10 lg:h-10' src={tilde} alt="tilde"/><p>Creando sabores únicos que soprenden a todas las personas que los prueban.</p>            
+              <img className='pr-2 w-7 h-7 lg:w-10 lg:h-10' src={tilde} alt="tilde"/><p className='text-justify'>Creando sabores únicos que soprenden a todas las personas que los prueban.</p>            
 
             </div>
          
             <div className='flex flex-nowrap'>
               
-              <img className='w-6 h-6 pr-2 lg:w-10 lg:h-10' src={tilde} alt="tilde"/><p>Siendo inclusivos al crear alternativas para todos, desde personas con intolerancias alimentarias hasta que por cuestiones éticas no desean comer productos hechos con componentes animales.</p>                        
+              <img className='w-6 h-6 pr-2 lg:w-10 lg:h-10' src={tilde} alt="tilde"/><p className='text-justify'>Siendo inclusivos al crear alternativas para todos, desde personas con intolerancias alimentarias hasta que por cuestiones éticas no desean comer productos hechos con componentes animales.</p>                        
 
             </div>           
 
             <div className='flex flex-nowrap'>
               
-              <img className='pr-2 w-7 h-7 lg:w-10 lg:h-10' src={tilde} alt="tilde"/><p>Siendo inclusivos al crear alternativas para todos, desde personas con intolerancias alimentarias hasta que por cuestiones éticas no desean comer productos hechos con componentes animales.</p>            
+              <img className='pr-2 w-7 h-7 lg:w-10 lg:h-10' src={tilde} alt="tilde"/><p className='text-justify'>Siendo inclusivos al crear alternativas para todos, desde personas con intolerancias alimentarias hasta que por cuestiones éticas no desean comer productos hechos con componentes animales.</p>            
 
             </div>
 

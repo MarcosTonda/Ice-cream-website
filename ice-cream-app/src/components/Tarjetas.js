@@ -25,7 +25,7 @@ const Tarjetas = () => {
 
   return (
     <>
-      <div className="mt-4 mb-10 text-6xl text-center">
+      <div className="mt-4 mb-10 font-sans:'Roboto' text-5xl text-center">
         <h1>Para todos los gustos</h1>
       </div>
 
@@ -153,7 +153,7 @@ const Tarjetas = () => {
                 que saber!
               </span>
             </h2>
-            <p className="mt-10 ml-20 text-black texttext-xl h-2/3">{item}</p>
+            <p className="mt-10 ml-20 text-base text-justify text-black h-2/3">{item}</p>
           </div>
           <div>
             <img
