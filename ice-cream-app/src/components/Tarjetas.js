@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import fresas from "../assets/fresas.jpg";
-import linda from "../assets/linda.jpg";
-import crema from "../assets/crema.jpg";
-import varios from "../assets/varios.jpg";
+import fresas from "./pictures/fresas.jpg";
+import linda from "./pictures/linda.jpg";
+import crema from "./pictures/crema.jpg";
+import mango from "./pictures/mango.jpg";
 import * as stylesMM from "./stylesMM";
 import { useModalHookState } from "./useModalHookState";
 import Modal from "./Modal";
@@ -117,7 +117,7 @@ const Tarjetas = () => {
         <div className="m-4 bg-white rounded-lg shadow-lg w-72">
           <img
             className="object-cover rounded-t-lg h-52"
-            src={varios}
+            src={mango}
             alt="varios sabores"
           />
 

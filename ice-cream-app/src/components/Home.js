@@ -6,6 +6,7 @@ import Socio from "./Socio/Socio";
 import Delivery from "./Delivery/Delivery";
 import Portada from "./Portada";
 import Nav from './Nav';
+import Carrusel from './Carousel';
 
 
 const Home = () => {
@@ -13,7 +14,7 @@ const Home = () => {
     <div>
 
 <div className="">
-       <div className="fixed bg-white border-b-2 border-cyan-500">
+       <div className="bg-white border-b-2 border-cyan-500">
        <Nav/>
        </div>
       <Portada />
@@ -34,6 +35,9 @@ const Home = () => {
       </div>
       <div className="mt-20">
         <Delivery />
+      </div>
+      <div className="mt-20">
+        <Carrusel />
       </div>
     </div>
   )

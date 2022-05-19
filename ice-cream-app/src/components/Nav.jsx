@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-//import { Link } from "react-router-dom";
-/* import Button from './Button'; */
-import lunaice from "./assets/lunaice.png"
- import {ShoppingCartIcon} from '@heroicons/react/outline'
+import lunaice from "./pictures/lunaice.png"
+import {ShoppingCartIcon} from '@heroicons/react/outline'
 
 const Nav = () => {
   let Links = [

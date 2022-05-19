@@ -9,10 +9,9 @@ import Home from "./components/Home"
 import Banner from "./components/Banner";
 
 const App = () => {
-  //const [modalIsOpen, openModal, closeModal] = useModalHookState(false);
   return (
     <>
-     <div className="sticky top-0">
+     <div className="">
      <Banner/>
       </div>
       <BrowserRouter>
@@ -21,7 +20,7 @@ const App = () => {
           <Route path='/ShoppingCart' element={<ShoppingCart />}/>
         </Routes>
       </BrowserRouter>  
-      <div className="mt-20">
+      <div className="mt-10">
         <Footer />
       </div>
     </>
