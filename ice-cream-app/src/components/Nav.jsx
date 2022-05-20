@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useState} from "react";
 import lunaice from "./pictures/lunaice.png"
 import {ShoppingCartIcon} from '@heroicons/react/outline'
+import { Link, useNavigate } from "react-router-dom";
 
 const Nav = () => {
+  const navigate = useNavigate()
   let Links = [
     { name: "NUESTRA HISTORIA", link: "/" },
     { name: "NUESTROS HELADOS", link: "/" },
@@ -40,11 +42,10 @@ const Nav = () => {
             </li>
           ))}
           
-         <div className="ml-16">
-          <a href="http://localhost:3006/ShoppingCart">
+         <div className="ml-16" onClick={()=>navigate("/Shoppingcart")}>
+           
           <ShoppingCartIcon className="w-12 text-slate-500 hover:text-cyan-500"
           /> 
-          </a>
           
           </div>
         </ul>
