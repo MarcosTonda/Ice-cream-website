@@ -1,6 +1,6 @@
 import React from "react";
 
-function Banner() {
+export default function Banner() {
   return (
     <section class="text-white font-sans:'Roboto' py-0.5 bg-cyan-400 m-0">
       <div class="max-w-screen-xl py-0 mx-auto lg:h-12 lg:items-center lg:flex">
@@ -13,5 +13,3 @@ function Banner() {
     </section>
   );
 }
-
-export default Banner;
